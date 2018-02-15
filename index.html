@@ -1,8 +1,99 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+
+ <head>
+ <title>Vantaa - Game 2</title>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.5.0/fabric.min.js"></script>
+ 
+  
+  <script type='text/javascript' src='js/peli.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/peli.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+ </head>
+
+ <body id="body">
+
+<!--
+  <audio id="myAudio" autoplay>
+    <source src="media/audio/Instructions-music.mp3" type="audio/mpeg" >
+    <source src="media/audio/backupsound.ogg" type="audio/ogg">
+    <source src="media/audio/backupsound.mp3" type="audio/mpeg">
+    <source src="media/audio/backupsound.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+    -->
+
+  <div id="buttonContainer">
+   <!-- <button id="play" type="button" >&#9658; Audio</button>
+    <button id="pause" type="button">&#9616;&#9616; Audio</button>
+    -->
+    <button id="stopDrawing" type="button">Stop drawing</button> 
+    <button id="delete" type="button"><i class="fa fa-trash"></i></button>
+    <button id="clone" type="button"><i class="fa fa-copy"></i></button>
+    <button id="black" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="red" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="blue" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="green" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="yellow" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="orange" type="button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+    <button id="scene2" type="button">Corner</button> 
+    <button id="scene1" type="button">Full view</button>
+    <button id="blankScene" type="button">Blank Scene</button>
+
+    <div style="position: absolute; width: 940px; height:900px;">
+    <div class="menu" id="goAway" style="position:absolute; z-index:10; width: 100%; height: 0%; left: 1px; top: -15px">
+    <div style="position: absolute; z-index: -99; width: 800px; height: 900px;">
+  <!--  <video autoplay controls="controls" width="940" height="560">
+  	<source src="media/video/junaVideo.mp4" type="video/mp4">
+  		<img alt="train" src="media/images/junanakyma1.png" width="640" height="360" title="No video playback capabilities, please download the video below">
+    </video>
+-->
+  
+  </div>
+   <article>
+   <p>
+  Instructions:<br><br>
+      In this game you have the chance to design your dream office! <br><br>
+      You can choose the background from two options above, or start from a blank slate. <br><br>
+      You can use the furniture below - move them around the office and adjust their size and orientation! You can duplicate or delete pieces of furniture using the buttons on the right.
+      <br><br>
+      Another approach is to use the drawing tool. On the right you can select different coloured pens! You can move your drawing around just like you can move furniture. If you want to select more than one line at a time, you can click and drag over to use a selection box.
+      <br><br>
+        I hope there is room for me too.
+        <br><br>
+    </p>
+   <button id="hide" type="button">Start Game</button> 
+   </article>
+  </div>
+
+  <div class="canvas-container"   id="target" style="position: relative; -webkit-user-select: none;">
+    <canvas style="position: absolute; z-index: 9;  left: 0px; top: 0px; -webkit-user-select: none;" id="c" width="940" height="1020" >
+    </canvas>
+  </div>
+
+  <article >
+    <p id="ohjeet">
+      Instructions:<br><br>
+      In this game you have the chance to design your dream office! <br><br>
+      You can choose the background from two options above, or start from a blank slate. <br><br>
+      You can use the furniture below - move them around the office and adjust their size and orientation! You can duplicate or delete pieces of furniture using the buttons on the right.
+      <br><br>
+      Another approach is to use the drawing tool. On the right you can select different coloured pens! You can move your drawing around just like you can move furniture. If you want to select more than one line at a time, you can click and drag over to use a selection box.
+      <br><br>
+        I hope there is room for me too.
+        <br><br>
+    </p>
+   </article>
+
+ </div>
+ </div>
+
+ </body>
+
+
+
 </html>
-//hello
