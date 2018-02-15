@@ -10,7 +10,8 @@ p {
     text-align: center;
     line-height: 1.5;
     color: black;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    */
     letter-spacing: 1px;
 }
 #c {
