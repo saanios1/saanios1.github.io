@@ -94,7 +94,7 @@ $(document).ready( function() {
   }
 
   function blankScene () {
-    canvas.setBackgroundImage('images/junanakyma3.png', canvas.renderAll.bind(canvas), {
+    canvas.setBackgroundImage('https://static.pexels.com/photos/259915/pexels-photo-259915.jpeg', canvas.renderAll.bind(canvas), {
       });
   }
 
@@ -139,7 +139,7 @@ $(document).ready( function() {
     });
   };
 
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/03/10/00/stool-309589_960_720.png', 10, 535);
+  drawItem(canvas, 'https://static.pexels.com/photos/259915/pexels-photo-259915.jpeg', 10, 535);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/41/light-575849_960_720.png', 110, 535);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/44/table-575934_960_720.png', 210, 535);
   drawItem(canvas, 'images/curtainleft.png', 310, 535);
