@@ -127,11 +127,11 @@ button:hover {
 #ohjeet {
 	font-family: Tahoma;
 	padding-top: 5%;
-    font-size: 25px;
+    font-size: 19px;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1;
     color: black;
     text-shadow: none;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
 }
