@@ -138,12 +138,12 @@ $(document).ready( function() {
       canvas.add(oImg);
     });
   };
-
+/*
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/03/10/00/stool-309589_960_720.png', 10, 535);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/41/light-575849_960_720.png', 110, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/44/table-575934_960_720.png', 210, 535);
+  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/44/table-575934_960_720.png', 210, 535);*/
   drawItem(canvas, 'images/curtainleft.png', 310, 535);
-  drawItem(canvas, 'images/curtainright.png', 410, 535);
+  drawItem(canvas, 'images/curtainright.png', 410, 535);/*
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/02/16/21/table-307005_960_720.png', 510, 535);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2012/04/18/04/19/chair-36810_960_720.png', 610, 535);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/47/sofa-576032_960_720.png', 710, 535);
@@ -183,7 +183,7 @@ $(document).ready( function() {
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/03/10/29/interactive-board-310637_960_720.png', 810, 735);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2012/04/11/12/39/monitor-28017_960_720.png', 810, 635);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2012/04/11/18/33/lcd-29306_960_720.png', 810, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/46/wall-576024_960_720.png', 810, 935);
+  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/46/wall-576024_960_720.png', 810, 935);*/
 
 
 });
