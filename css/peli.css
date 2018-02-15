@@ -9,7 +9,7 @@ p {
     font-size: 19px;
     text-align: center;
     line-height: 1.5;
-    color: yellow;
+    color: black;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     letter-spacing: 1px;
 }
