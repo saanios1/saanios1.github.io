@@ -75,7 +75,7 @@ $(document).ready( function() {
   $("#hide").click(function(){
     $("#hide").remove();
     $(".menu").remove();
-    canvas.setBackgroundImage('media/images/junanakyma3.png', canvas.renderAll.bind(canvas), {
+    canvas.setBackgroundImage('images/junanakyma3.png', canvas.renderAll.bind(canvas), {
       });
   });
 
@@ -84,12 +84,12 @@ $(document).ready( function() {
   $('#blankScene').click(blankScene)
 
   function scene1 () {
-    canvas.setBackgroundImage('media/images/junanakyma1.png', canvas.renderAll.bind(canvas), {
+    canvas.setBackgroundImage('images/junanakyma1.png', canvas.renderAll.bind(canvas), {
       });
   }
 
   function scene2 () {
-    canvas.setBackgroundImage('media/images/junanakyma2.png', canvas.renderAll.bind(canvas), {
+    canvas.setBackgroundImage('images/junanakyma2.png', canvas.renderAll.bind(canvas), {
       });
   }
 
