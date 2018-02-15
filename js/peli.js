@@ -8,8 +8,8 @@ $(document).ready( function() {
   canvas.selection = false;
   
   // audio player, music can be turned on or off 
-  var audio = document.getElementById("myAudio"); 
-
+ // var audio = document.getElementById("myAudio"); 
+/*
   function playAudio() { 
     audio.play(); 
   } 
@@ -20,7 +20,7 @@ $(document).ready( function() {
 
   $('#play').click(playAudio);
   $('#pause').click(pauseAudio);
-
+*/
   // function that automatically brings active object to front
   function front(e) {
     e.target.bringToFront();
