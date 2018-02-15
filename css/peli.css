@@ -6,12 +6,12 @@ body {
 p {
 	font-family: Tahoma;
 	padding-top: 5%;
-    font-size: 21px;
+    font-size: 19px;
     text-align: center;
     line-height: 1.5;
     color: yellow;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 #c {
  background: #d3d3d3;
