@@ -138,15 +138,16 @@ $(document).ready( function() {
       canvas.add(oImg);
     });
   };
-/*
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/03/10/00/stool-309589_960_720.png', 10, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/41/light-575849_960_720.png', 110, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/44/table-575934_960_720.png', 210, 535);*/
+
+  drawItem(canvas, 'images/chair1.png', 10, 535);
+  drawItem(canvas, 'images/chair2.png', 110, 535);
+  drawItem(canvas, 'images/chair3.png', 210, 535);
   drawItem(canvas, 'images/curtainleft.png', 310, 535);
-  drawItem(canvas, 'images/curtainright.png', 410, 535);/*
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/04/02/16/21/table-307005_960_720.png', 510, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2012/04/18/04/19/chair-36810_960_720.png', 610, 535);
-  drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/47/sofa-576032_960_720.png', 710, 535);
+  drawItem(canvas, 'images/curtainright.png', 410, 535);
+  drawItem(canvas, 'images/table1.png', 510, 535);
+  drawItem(canvas, 'images/clock.png', 610, 535);
+  drawItem(canvas, 'images/tableset.png', 710, 535);
+    /*
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/49/bench-576130_960_720.png', 10, 935);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/52/lamp-576217_960_720.png', 110, 935);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2012/04/26/18/48/sofa-42818_960_720.png', 210, 935);
