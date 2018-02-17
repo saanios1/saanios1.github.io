@@ -4,36 +4,58 @@ body {
 
 
 p {
-	font-family: Tahoma;
-	padding-top: 5%;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
     font-size: 19px;
     text-align: center;
-    line-height: 1.5;
-    color: black;
+    line-height: 1.6;
+    color: #4c4c4c;
     text-shadow: none;
     /*-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
     letter-spacing: 2px;
 }
 #c {
- background: #d3d3d3;
- border:1px solid #000000;
+ background: #8cece2;
+ border:1px solid #4c4c4c;
 }
 
 button {
- color: black;
+ color: #4c4c4c;
  background-color: white;
- border: black;
+    font-size: 19px;
+ border: #4c4c4c;
  padding-top: 8px;
  padding-bottom: 8px;
  padding-left: 11px;
  padding-right: 11px;
 
 }
+.kuva {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 17px;
+    padding-right: 5px;
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    color: #e2e0da;
+}
+
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
 
 #hide {
 	vertical-align: center;
 	position: absolute;
-	right: 50%;
+	right: 45%;
 }
 
 button:hover {
@@ -41,89 +63,89 @@ button:hover {
  padding-bottom: 7px; 
  padding-left: 9px;
  padding-right: 10px;
- border-top: 3px solid rgba(62, 71, 85, 0.4);
- border-left: 2px solid rgba(62, 71, 85, 0.4);
- border-right: 1px solid rgba(62, 71, 85, 0.4);
- border-bottom: 1px solid rgba(62, 71, 85, 0.4);
+ border-top: 2px solid #4c4c4c;
+ border-left: 2px solid #4c4c4c;
+ border-right: 2px solid #4c4c4c;
+ border-bottom: 2px solid #4c4c4c;
 
 }
 
 #stopDrawing {
- color: black;
- font-size: 12px;
+ color: #4c4c4c;
+ font-size: 18px;
  position:absolute;
-    top: 250px;
+    top: 750px;
     left: 950px;
 }
 
 #delete {
- color: black;
- font-size: 25px;
+ color: #4c4c4c;
+ font-size: 40px;
  position:absolute;
-    top: 50px;
-    left: 1000px;
+    top: 800px;
+    left: 1015px;
 }
 
 #clone {
- color: black;
- font-size: 25px;
+ color: #4c4c4c;
+ font-size: 40px;
  position:absolute;
-    top: 50px;
+    top: 800px;
     left: 950px;
 }
 
 #black {
  background-color: white;
  color: black;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 100px;
+    top: 865px;
     left: 950px;
 }
 
 #red {
  background-color: white;
  color: red;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 100px;
-    left: 1000px;
+    top: 865px;
+    left: 1015px;
 }
 
 #blue {
  background-color: white;
  color: blue;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 150px;
+    top: 930px;
     left: 950px;
 }
 
 #yellow {
  background-color: white;
  color: yellow;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 150px;
-    left: 1000px;
+    top: 930px;
+    left: 1015px;
 }
 
 #green {
  background-color: white;
  color: green;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 200px;
+    top: 995px;
     left: 950px;
 }
 
 #orange {
  background-color: white;
  color: orange;
- font-size: 25px;
+ font-size: 40px;
  position:absolute;
-    top: 200px;
-    left: 1000px;
+    top: 995px;
+    left: 1015px;
 }
 #ohjeet {
 	font-family: Tahoma;
@@ -131,7 +153,7 @@ button:hover {
     font-size: 19px;
     text-align: left;
     line-height: 1.5;
-    color: black;
+    color: #4c4c4c;
     text-shadow: none;
     letter-spacing: 2px;
 
