@@ -52,7 +52,18 @@ $(document).ready( function() {
     deleteObjects();
   });
 
-
+ var keycodes = {};
+  
+  window.addEventListener("keydown", function(e) {
+    e.preventDefault();
+    keycodes[e.keyCode] = true;
+  });
+  
+    window.addEventListener("keyup", function(e) {
+    delete keycodes[e.keyCode];
+  });
+    
+    
   //function to clone/duplicate selected object
   function clone(){
 
@@ -147,6 +158,7 @@ $(document).ready( function() {
   drawItem(canvas, 'images/table1.png', 510, 535);
   drawItem(canvas, 'images/clock.png', 610, 535);
   drawItem(canvas, 'images/tableset.png', 710, 535);
+    drawItem(canvas, 'images/salla-mari.png',810, 535);
     /*
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/49/bench-576130_960_720.png', 10, 935);
   drawItem(canvas, 'https://pixabay.com/static/uploads/photo/2014/12/21/23/52/lamp-576217_960_720.png', 110, 935);
